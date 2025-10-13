@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #101220;;
+}
+.header{
+    padding: 20px 0;
+    background-color: #0c0e18fa;;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.header__left{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header__dropdown{
+    position: absolute;
+    top: 30px;
+    left: 210px;
+    width: 120px;
+    padding: 5px;
+    box-shadow:0px 0px 11px 0px #fff ;
+    background-color:#232028 ;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.header__item{
+    width: 100px;
+    background-color: #030303;
+    padding: 2px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.header__info{
+    color: #fff;
+    font-weight: 900;
+}
+.header__item:hover{
+    background-color: #BFAFF2;
+}
+.header__item:hover .header__info{
+    color: #000;
+}
+.header__link{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+}
+.header__link:hover .header__dropdown{
+    display: block;
+}
+.header__register{
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    gap: 24px;
+    border: none;
+    background-color: #0c0e1866;
+}
+.header__sign{
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #bfaff2;
+    transition: 0.5s ease-in-out;
+}
+.header__sign:hover{
+    background-color: darkgreen;
+}
+.header__left:hover .header__dropdown{
+    display: flex;
+}
+.bola{
+    border-radius: 32px;
+    background-color: #232028;
+    width: 330px;
+    height: 230px;
+    gap: 20px;
+    
+}
+.h2{
+    color: #ffffff;
+    font-family: "Outfit";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.hero__text{
+    width: 293px;
+    height: 102px;
+    color: #ffffff;
+    font-family: "Outfit";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    right: -15px;
+}
+.gojo{
+    position: relative;
+    top: 43px;
+    right: -39px;
+}
+.hero1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gojo2{
+    position: relative;
+    top: 41px;
+    right:  -39px;
+}
+.gojo3{
+    position: relative;
+    top: 41px;
+    right:  -39px;
+}
+.gojo4{
+    position: relative;
+    top: 44px;
+    right:  -39px;
+}
+.footer{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding: 20px 0;
+    background-color: #0c0e18fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h4{
+    color: #ffffff;
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+margin: 20px 40px 0;
+transition: 0.5s ease-in-out;
+}
+.h5{
+    color: #ffffff;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+transition: 0.5s ease-in-out;
+}
+.h5:hover{
+    color: red;
+}
+.h4:hover{
+    color: red;
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 20px 40px 0;
+}
