@@ -85,6 +85,7 @@ body{
     border: none;
     background-color: #0c0e1866;
 }
+
 .header__sign{
     width: 175px;
     height: 50px;
@@ -170,6 +171,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .h4{
     color: #ffffff;
